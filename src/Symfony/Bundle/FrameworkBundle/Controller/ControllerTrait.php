@@ -189,7 +189,7 @@ trait ControllerTrait
      * @param string $type    The type
      * @param string $message The message
      *
-     * @throws \LogicException
+     * @throws \LogicException If sessions are disabled
      *
      * @final since version 3.4
      */
@@ -210,7 +210,7 @@ trait ControllerTrait
      *
      * @return bool
      *
-     * @throws \LogicException
+     * @throws \LogicException If SecurityBundle is not available
      *
      * @final since version 3.4
      */
